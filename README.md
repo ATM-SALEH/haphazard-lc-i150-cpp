@@ -37,4 +37,4 @@ RAM Size: 4GB
 
 ### Solved Problems 
 
-[Click here](https://github.com/ATM-SALEH/haphazard-lc-i150-cpp/tree/main/SOLUTIONS.md) to view the list of the solution
+[Click here](https://github.com/ATM-SALEH/haphazard-lc-i150-cpp/tree/main/SOLUTIONS.md)
