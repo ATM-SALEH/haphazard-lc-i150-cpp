@@ -1,5 +1,6 @@
-# containerised build area
+# build area (manual command execution)
 build/
+docker-build/
 
-# local build area
-cmake-build/
+# build area (vscode intellisense)
+vscode-build/

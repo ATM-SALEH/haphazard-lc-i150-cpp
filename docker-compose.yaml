@@ -7,7 +7,7 @@ services:
         DOCKER_BUILDKIT: 1
     volumes:
       - .:/workarea
-      - ./build:/buildarea:cached
+      - ./docker-build:/buildarea:cached
     working_dir: /workarea
     command: bash -c "
       cmake -B /buildarea -S /workarea 
