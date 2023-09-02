@@ -11,15 +11,17 @@ mkdir -p build
 cmake -B build -S .
 pushd build && make && ctest && popd
 ```
-Here, the build directory is named as `build`. Feel free to use any other name.
+Here, the build directory is named as `build`. Feel free to use any other name. Alternatively, there is a companion script in the root directory which wraps these instrcutions. You can use it by running
+
+```
+./run_tests.sh
+```
 
 ### Using containerised environment
 
 ```
 docker-compose run --rm utest
 ```
-
-Make sure the directory does not contain any directory called `docker-build` before running this command
 
 ### Solved Problems 
 
