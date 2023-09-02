@@ -19,6 +19,8 @@ Here, the build directory is named as `build`. Feel free to use any other name. 
 
 ### Using containerised environment
 
+Make sure you have [`docker-compose`](https://docs.docker.com/compose/) installed beforehand.
+
 ```
 docker-compose run --rm utest
 ```
