@@ -4,7 +4,7 @@ Haphazard implementation of leetcode problems curated under [Top Interview 150](
 
 You can compile and run the unit test suites after cloning the repository using any of the following methods
 
-### Using local machine environment (tested for `unix`)
+### Using local machine environment
 
 ```
 mkdir -p build
@@ -21,6 +21,18 @@ Here, the build directory is named as `build`. Feel free to use any other name. 
 
 ```
 docker-compose run --rm utest
+```
+
+### Supported Platform(s)
+
+All unix flavors should supports the commands specified above. Windows compatibility hasn't been tested. se commands have been tested on a machine with the following specification:
+
+```
+Name: Ubuntu 22.04.1 LTS
+Kernel: 5.15.0-79-generic
+Architecture: x86_64
+Processor Model: AMD EPYC 7601 32-Core Processor
+RAM Size: 4GB
 ```
 
 ### Solved Problems 
