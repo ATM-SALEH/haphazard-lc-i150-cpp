@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  utest:
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    volumes:
+      - .:/workarea
+      - ./build:/buildarea:cached
+    working_dir: /workarea
+    command: bash -c "
+      cmake -B /buildarea -S /workarea 
+      && cd /buildarea 
+      && make 
+      && ctest
+      "

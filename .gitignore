@@ -1,0 +1,5 @@
+# containerised build area
+build/
+
+# local build area
+cmake-build/
