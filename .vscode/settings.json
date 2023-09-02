@@ -1,6 +1,6 @@
 {
     "cmake.configureOnOpen": false,
-    "cmake.buildDirectory": "${workspaceFolder}/cmake-build/${buildType}",
+    "cmake.buildDirectory": "${workspaceFolder}/vscode-build/${buildType}",
     "files.associations": {
         "string": "cpp",
         "cctype": "cpp",
