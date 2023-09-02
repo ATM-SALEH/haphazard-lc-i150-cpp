@@ -27,7 +27,7 @@ docker-compose run --rm utest
 
 ### Supported Platform(s)
 
-All unix flavors should support the commands specified above. Windows compatibility hasn't been tested. se commands have been tested on a machine with the following specification:
+All unix flavors should support the commands specified above. Windows compatibility hasn't been tested. These commands have been tested on a machine with the following specification:
 
 ```
 Name: Ubuntu 22.04.1 LTS
