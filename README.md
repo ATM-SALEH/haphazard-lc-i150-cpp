@@ -1,5 +1,7 @@
 Haphazard implementation of leetcode problems curated under [Top Interview 150](https://leetcode.com/studyplan/top-interview-150)
 
+[Unit Tests](https://github.com/ATM-SALEH/haphazard-lc-i150-cpp/actions/workflows/test.yml/badge.svg)
+
 ## Compile and run unit tests
 
 You can compile and run the unit test suites after cloning the repository using any of the following methods
